@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.btn, .btn:hover {
+  border-color: #152C52;
+  border-width: 4px;
+  border-style: solid;
+  background-color: transparent;
+  margin-top: 25px;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cover-heading {
+  font-size: 70px;
+}
+.fade-in {
+  opacity: 0;
+}
+.uppercase {
+  text-transform: uppercase;
+}
