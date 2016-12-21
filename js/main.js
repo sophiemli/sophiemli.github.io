@@ -12,6 +12,7 @@ $( document ).ready(function() {
 		onStringTyped: function() {
 			setTimeout(function(){
 				$(".fade-in").fadeTo(1500, 1);
+				$(".fade-in").css("visibility", "visible");
 				$(".site-wrapper-inner").particleground("start");
 			  	$(".typed-cursor").css("visibility", "hidden");
 			}, 100);
