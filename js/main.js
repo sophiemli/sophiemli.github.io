@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+	$('.nav-link').popover();
 	$(".site-wrapper-inner").particleground({
 		dotColor: '#B1D3D1',
 		lineColor: '#B1D3D1',
